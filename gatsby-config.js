@@ -12,6 +12,7 @@ require('dotenv').config({
 const siteMetadata = require('./config/siteMetadata');
 
 module.exports = {
+  pathPrefix: "/substrate-docs-Golds",
   siteMetadata,
   plugins: [
     'gatsby-plugin-substrate',
